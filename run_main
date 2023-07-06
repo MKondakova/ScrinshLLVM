@@ -1,0 +1,1 @@
+tsc && node src/main.js examples/testSchema.txt && cd examples/ && clang out.ll -c -Wno-override-module && gcc -c main.c && gcc -o res main.o out.o && ./res && cd ..

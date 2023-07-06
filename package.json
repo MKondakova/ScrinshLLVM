@@ -1,0 +1,30 @@
+{
+  "name": "scrinsh_to_llvm_ir",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MKondakova/ScrinshToLLVM.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MKondakova/ScrinshToLLVM/issues"
+  },
+  "homepage": "https://github.com/MKondakova/ScrinshToLLVM#readme",
+  "devDependencies": {
+    "@types/uuid": "^9.0.1",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "@types/node": "^18.11.9",
+    "fast-xml-parser": "^4.0.11",
+    "llvm-bindings": "^0.4.2",
+    "ts-node": "^10.9.1",
+    "uuid": "^9.0.0"
+  }
+}
